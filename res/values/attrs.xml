@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 共用属性 -->
+    <attr name="centerTextColor" format="color" />
+    <attr name="centerTextSize" format="dimension" />
+    <attr name="centerTextSufSize" format="dimension" />
+    
+    <declare-styleable name="PieView">
+        <attr name="centerTextColor" />
+        <attr name="centerTextSize" />
+        <attr name="centerTextSufSize" />
+        <attr name="centerBgColor" format="color" />
+        <attr name="centerSufColor" format="color" />
+        <attr name="isAnimEnable" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ArcView">
+       	<attr name="centerTextColor" />
+        <attr name="centerTextSize" />
+        <attr name="centerTextSufSize" />
+        
+        <attr name="arcBgColor" format="color" />
+	    <attr name="arcStorkWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="LoadingView">
+        <attr name="iconFull" format="reference" />
+	    <attr name="iconEmpty" format="reference" />
+    </declare-styleable>
+</resources>

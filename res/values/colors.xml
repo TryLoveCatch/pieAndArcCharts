@@ -1,0 +1,10 @@
+<resources>
+	<color name="black">#000000</color>
+	<color name="red">#FF0000</color>
+	<color name="blue">#0000FF</color>
+	<color name="green">#00FF00</color>
+	<color name="bg_black">#E3E4E6</color>
+	
+	<color name="music_start_color">#ffff674d</color>
+	<color name="music_end_color">#fff24e30</color>
+</resources>

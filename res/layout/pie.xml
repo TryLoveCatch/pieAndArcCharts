@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lp.pieandarccharts.MainActivity" >
+	
+    <com.lp.pieandarccharts.PieView 
+        xmlns:app="http://schemas.android.com/apk/res-auto"  
+        android:id="@+id/pieview"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	app:centerBgColor="#ffffff"
+    	app:centerTextColor="@color/black"
+    	app:centerSufColor="@color/blue"
+    	app:centerTextSize="@dimen/dp_14"
+    	app:centerTextSufSize="@dimen/dp_18"
+    	app:isAnimEnable="true"
+        />
+    
+</LinearLayout>
